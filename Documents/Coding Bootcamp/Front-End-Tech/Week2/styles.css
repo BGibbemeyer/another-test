@@ -1,0 +1,90 @@
+body {
+    background-color:blanchedalmond
+}
+h1 {
+    color:goldenrod;
+}
+
+div {
+    color:darkred;
+    background-color:cornflowerblue;
+    border-style:dotted; 
+    border-color:red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* CSS PSEUDO CLASSES--------------------------------------- */
+
+.shadow-text { 
+    text-shadow:gold 1px 1px;
+}
+
+#large-paragraph { 
+    font-size: 30px;
+}
+
+/*Creating a hover state*/
+.hov {
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+}  
+
+.hov:hover {
+  background-color: red; /*when it's in the hover state, background is red*/
+}
+
+/*Styling every other line: */
+.every-even li:nth-child(even) {
+    background-color: red;
+}
+
+/* Styling every 3rd row in any table */
+tr:nth-child(3n) {
+    background-color:rgb(7, 168, 47);
+}   
+
+.every-even:hover {
+    background-color: white;
+}
+
+/*Styling every third line:
+ .every-third li:nth-child(3n) {
+    background-color: red;
+} */
+
+
+/* STYLING A TABLE------------------------------------------ */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 185, 185);
+}
+
+tr:hover {
+    background-color:gray;
+}
+
+/* HTML BOX MODEL------------------------------------------ */
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:gold;
+    margin: 30px;
+    background-color:blue;
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=400, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catMasks.css">
+</head>
+<body class="orderpg"> <!-- background image -->
+
+             <!-- 'Order Now' boxed heading -->
+    <h1 id="orderheader">Order Now</h1>
+
+            <!-- links for home/about/order now pages -->
+    <div class="menu">
+        <!-- padding will separate the links -->
+        <a href="index2.html">Home</a>
+        <a href="about2.html">About</a>
+        <a href="order2.html">Order Now</a>
+    </div>
+
+          <!-- pic of cartoon cats and customer info form -->
+<div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wM20LQxJSnuNSex-CVsN6RTBvefMlZ4ALg&usqp=CAU" 
+    alt="cartoon cats in face masks"/>
+
+    <form id="customer-info">
+      <b>
+        Please tell us your name and give us an email to contact you: <br><br>
+        <input type= "text" name="firstName" placeholder="First Name"> 
+        <input type= "text" name="lastName" placeholder="Last Name">
+        <input type= "text" name="email" placeholder="Email@"> <br><br><br>
+      </b>
+    </form>
+</div>   
+            <!-- size options form -->
+<div>
+    <form id="size">
+        Tell us which mask size is needed: <br>
+        <input type="radio" name="size" value="sm"> Small
+        <input type="radio" name="size" value="med"> Medium
+        <input type="radio" name="size" value="lg"> Large
+        <br><br>
+    </form>
+</div>
+            <!-- style title form -->
+<div>      
+    <form id="style">
+        Now, which mask style do you prefer:
+    </form>
+
+            <!-- style options form -->
+    <form id="styleOptions">
+        <input type="radio" name="mask" value= "Leopard Print"> Leopard Print <br>
+        <input type="radio" name="mask" value= "Tiger Stripe"> Tiger Stripe <br>
+        <input type="radio" name="mask" value= "Solid Color"> Solid Color <br>
+        <br>
+    </form>
+
+    <form id="solidColor">
+        If choosing a solid color, please tell us which color:
+        <input type="text" name="Color" placeholder="Color"><br><br>
+    </form>
+</div> 
+
+            <!-- section of page that holds submit button -->
+<div class="submitSection">
+        <input class="submit" type= "submit" value="Submit" title="Almost there! Just click"> 
+</div>                    <!-- don't forget to see the message^just hover and pause before clicking! -->
+
+</body>
+</html>

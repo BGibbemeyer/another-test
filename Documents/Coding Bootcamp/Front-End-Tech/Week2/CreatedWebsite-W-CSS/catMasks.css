@@ -1,0 +1,189 @@
+
+
+/* ------------- Home Page ----------------   */
+
+
+/* background for my 'home' and 'about' pages */
+body {
+    background-color:rgb(132, 172, 247);
+}
+
+
+
+/* main heading */
+#modifytext {
+    color:darkred;
+    font-size: 60px; 
+}
+
+/* center the main heading, the menu links, and heading with emojis*/
+#modifytext, .menu, div, h2 {
+    text-align: center;
+}
+
+/* placement of img1, img2, img3 */
+.img1 {
+    float:left;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.img2 {
+    float:right;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.img3 { 
+    margin-top: 100px; 
+    margin-left: 420px;
+    margin-right: 400px;
+}
+
+/* makes last sentences on index centered */
+ p, h4 {
+     text-align: center;
+    float:none;
+} 
+
+/* -----------------   About Page   -----------  */
+
+
+/* boxed 'About Us' header */
+#aboutheader {
+    text-align: center;
+    color:aliceblue;
+    margin-right: 200px;
+    margin-left:200px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hotpink;
+    background-color:midnightblue;
+}
+
+h2 { /* 'We offer a variety of masks...' */
+    color: rgb(28, 38, 58)
+}
+
+ol { /*list of reasons to buy from us */
+    background-color:hotpink;
+    color: rgb(115, 11, 184);
+    align-content: center;
+}  
+
+#matchit { /* 'If you find it cheaper...' */
+    text-align: center;
+    color:red;
+}
+
+table { /* table with size/style/price */
+      border-collapse:collapse;
+      width: 100%;
+      align-self: center;
+}
+
+th { /* table header */
+    background-color: midnightblue;
+}
+  
+th, td { /* table header, table data */
+    color: ghostwhite;
+    padding:6px; /*space in between each item*/
+    text-align: center;
+    border: 1px solid; 
+}
+
+tr:nth-child(even) { /* even rows */
+    background-color: rebeccapurple;
+}
+tr:nth-child(3n) { /* third row */
+    background-color: rgb(77, 38, 116);
+}
+
+tr:hover { /* table rows when in hover state */
+    background-color: red;
+}
+
+.makeitofficial { /* 'Once you've made your choice..' with order link */
+    text-align: center;
+}
+
+/*  --------- ORDER Page -----------   */
+
+
+/* background image */
+.orderpg {
+    background-image: url("catop2.0.jpg");
+    background-size: 50%; 
+}
+
+/* boxed 'Order Now' header */
+#orderheader {
+    text-align: center;
+    color:aliceblue;
+    margin-right: 200px;
+    margin-left:200px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:blue;
+    background-color:orange;
+}
+
+/* customer info form */
+#customer-info {
+    font-size: 20px;
+    color: rgb(255, 17, 17);
+    margin-right: 300px;
+    margin-left:300px;
+    background-color:cornflowerblue;
+}
+
+/* size options form */
+#size {
+    color: rgb(204, 3, 137);
+    margin-right: 400px;
+    margin-left:400px;
+    background-color:cornflowerblue;
+}
+
+/* style title form */
+#style {
+    color: rgb(132, 1, 165);
+    padding: 20px;
+    margin-right: 500px;
+    margin-left:500px;
+    background-color:cornflowerblue;
+}
+
+/* style options form */
+#styleOptions {
+    color: rgb(1, 39, 165);
+    padding: 0px;
+    margin-right: 550px;
+    margin-left:550px;
+    background-color:cornflowerblue;
+}
+
+/* solid color form*/
+#solidColor {
+    color: rgb(0, 65, 73);
+    padding: 0px;
+    margin-right: 400px;
+    margin-left:400px;
+    background-color:cornflowerblue;
+}
+
+/* created to center and allow blue background behind submit button*/
+.submitSection {
+    text-align: center;
+    margin-right: 550px;
+    margin-left:550px;
+    background-color:cornflowerblue; 
+}
+
+/* submite button turns orange in hover state */
+.submit:hover {
+    background-color:orange;
+}
